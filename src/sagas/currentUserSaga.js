@@ -1,7 +1,7 @@
 //  Something abt apply changes the scope of call?
 import { take, put, call, apply } from "redux-saga/effects";
 //  Lets u call the API... but doesn't React come w a "fetch()"?
-import fetch from "isomorphic-fetch";
+//import fetch from "isomorphic-fetch";
 
 import { GET_CURRENT_USER_INFO, setCurrentUser } from "./../actions";
 
